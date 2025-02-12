@@ -92,6 +92,26 @@ blockquote {
     color: #555;
 }
 
+/* About Section with Image */
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* Space between image and text */
+    margin-top: 20px;
+}
+
+#about .about-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
 /* Contact Form */
 #contact form {
     text-align: left;
