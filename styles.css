@@ -13,6 +13,15 @@ header {
     background-color: #007bff;
     color: white;
     padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .logo {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 20px;
 }
 
 header h1 {
@@ -42,6 +51,34 @@ section {
     padding: 50px 20px;
     max-width: 800px;
     margin: auto;
+}
+
+/* Contact Form */
+#contact form {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
 }
 
 /* About Section */
@@ -93,4 +130,3 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
-
