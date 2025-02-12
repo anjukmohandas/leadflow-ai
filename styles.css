@@ -14,7 +14,7 @@ a {
 
 /* Header Section */
 header {
-    background-color: #007bff;
+    background-color: #007bff; /* Match with the logo's blue */
     color: white;
     padding: 30px 40px;
     display: flex;
@@ -25,7 +25,7 @@ header {
 }
 
 header .logo {
-    width: 50px; /* Adjust logo size */
+    width: 80px; /* Adjusted to a larger size */
     height: auto;
 }
 
@@ -38,6 +38,7 @@ header h1 {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.2;
+    color: white; /* Ensure the text is white */
 }
 
 .cta-button {
@@ -46,13 +47,25 @@ header h1 {
     padding: 12px 25px;
     font-size: 18px;
     color: white;
-    background-color: #ff6b00;
+    background-color: #ff6b00; /* Orange button color */
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #cc5500;
+    background-color: #cc5500; /* Darker orange on hover */
+}
+
+/* Hero Image Section */
+#hero-image {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Card-style Sections */
@@ -123,7 +136,7 @@ blockquote {
 
 /* Final CTA Section */
 #cta {
-    background-color: #007bff;
+    background-color: #007bff; /* Consistent blue with header */
     color: white;
     padding: 60px 20px;
     max-width: 900px;
@@ -164,11 +177,11 @@ footer {
         padding: 10px 20px;
         font-size: 16px;
     }
-    
+
     .card {
         padding: 30px 20px;
     }
-    
+
     #cta {
         padding: 50px 20px;
     }
