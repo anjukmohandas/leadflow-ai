@@ -55,6 +55,42 @@ header h1 {
     background-color: #E67E22; /* Darker shade of orange */
 }
 
+/* About Section with Image */
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; /* Space between text and image */
+    margin-top: 40px;
+}
+
+#about .about-text {
+    flex: 1;
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about .about-image {
+    flex: 1;
+    max-width: 500px;
+    text-align: center;
+}
+
+#about .image1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* Card-style Sections */
 .card {
     background-color: white;
@@ -90,26 +126,6 @@ blockquote {
     font-size: 18px;
     font-style: italic;
     color: #555;
-}
-
-/* About Section with Image */
-#about .about-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* Space between image and text */
-    margin-top: 20px;
-}
-
-#about .about-image {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-}
-
-#about p {
-    font-size: 18px;
-    line-height: 1.6;
 }
 
 /* Contact Form */
@@ -195,5 +211,14 @@ footer {
 
     footer {
         font-size: 12px;
+    }
+
+    #about .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about .about-text {
+        margin-bottom: 20px;
     }
 }
