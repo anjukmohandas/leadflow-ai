@@ -22,6 +22,9 @@ header {
 header .logo {
     width: 100px; /* Adjust size as needed */
     margin-bottom: 20px;
+    display: block;  /* Make sure logo is displayed */
+    margin-left: auto;  /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
 }
 
 header h1 {
