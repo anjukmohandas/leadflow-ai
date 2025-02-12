@@ -21,16 +21,17 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    border-bottom: 2px solid #0056b3;
 }
 
 header .logo {
-    width: 70px; /* Resize the logo to be smaller */
+    width: 70px; /* Resize the logo */
     height: auto;
-    margin-right: 20px;
 }
 
 header .header-text {
     max-width: 650px;
+    text-align: left;
 }
 
 header h1 {
@@ -62,6 +63,12 @@ header h1 {
     padding: 40px 30px;
     margin: 20px auto;
     max-width: 900px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hover effect for cards */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card h2 {
@@ -164,5 +171,9 @@ footer {
     
     #cta {
         padding: 50px 20px;
+    }
+
+    footer {
+        font-size: 12px;
     }
 }
